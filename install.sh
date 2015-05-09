@@ -9,6 +9,6 @@ mkdir -p $olddir
 
 for file in $files; do
   mv ~/.$file $olddir
-  echo "copying $file"
+  echo "creating link to $file"
   ln -s $dir/$file ~/.$file
 done
