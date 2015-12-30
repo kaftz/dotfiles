@@ -13,9 +13,6 @@ set number
 " Allow hidden buffers, don't limit to 1 file per window/split
 set hidden
 
-
-" from work conf
-" ********************
 set cursorline
 set scrolloff=999
 
