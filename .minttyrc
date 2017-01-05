@@ -12,3 +12,4 @@ ForegroundColour=0,254,76
 CursorColour=0,254,82
 Blue=67,63,218
 Cyan=0,190,198
+Term=xterm-256color
