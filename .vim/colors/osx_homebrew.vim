@@ -61,7 +61,7 @@ hi Float guifg=#d32a27 guibg=NONE guisp=NONE gui=NONE ctermfg=160 ctermbg=NONE c
 hi Number guifg=#d32a27 guibg=NONE guisp=NONE gui=NONE ctermfg=160 ctermbg=NONE cterm=NONE
 hi Boolean guifg=#d32a27 guibg=NONE guisp=NONE gui=NONE ctermfg=160 ctermbg=NONE cterm=NONE
 hi Operator guifg=#BD9800 guibg=NONE guisp=NONE gui=bold ctermfg=1 ctermbg=NONE cterm=bold
-hi CursorLine guifg=#00fe50 guibg=#000000 guisp=#000000 gui=underline ctermfg=47 ctermbg=NONE cterm=underline
+hi CursorLine guifg=NONE guibg=#000000 guisp=#000000 gui=underline ctermfg=NONE ctermbg=NONE cterm=underline
 hi TabLineFill guifg=#192224 guibg=#5E6C70 guisp=#5E6C70 gui=bold ctermfg=235 ctermbg=66 cterm=bold
 hi WarningMsg guifg=#A1A6A8 guibg=#912C00 guisp=#912C00 gui=NONE ctermfg=248 ctermbg=88 cterm=NONE
 hi VisualNOS guifg=#192224 guibg=#F9F9FF guisp=#F9F9FF gui=underline ctermfg=235 ctermbg=189 cterm=underline
