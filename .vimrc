@@ -17,7 +17,7 @@ set cursorline
 set scrolloff=999
 
 "set incsearch
-"set hlsearch
+set nohlsearch
 set ignorecase
 set smartcase
 
