@@ -32,4 +32,5 @@ set noswapfile
 :imap jj <esc>
 :imap jk <esc>
 
+colorscheme space-vim-dark
 au Filetype * set fo-=c fo-=r fo-=o " disable auto comment headers
