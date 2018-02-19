@@ -86,4 +86,3 @@ au Filetype * set fo-=c fo-=r fo-=o
 
 " check for external filechanges on cursor hold
 au CursorHold,CursorHoldI * checkt
-
