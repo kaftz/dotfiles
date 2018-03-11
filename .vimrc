@@ -24,11 +24,15 @@ filetype plugin indent on " required
 " ********************
 let g:ctrlp_max_files=0
 let g:ctrlp_max_depth=40
-let g:ctrlp_cmd='CtrlPMixed'
 let g:ctrlp_max_height=20
+let g:ctrlp_map='<C-P>'
+let g:ctrlp_cmd='CtrlPMixed'
 if executable('ag')
   let g:ctrlp_user_command='ag %s -l --nocolor --hidden -g ""'
 endif
+
+let g:buftabline_numbers=1
+let g:buftabline_indicators=1
 
 
 " http://vimconfig.com/
@@ -62,6 +66,9 @@ set noswapfile
 "set laststatus=2
 "set mouse=a
 
+"set shortmess=I
+set viminfo='50,%
+
 colorscheme osx_homebrew 
 
 
@@ -72,6 +79,15 @@ imap jk <esc>
 
 " <C-L> also clears search highlighting
 nnoremap <C-L> :noh<CR><C-L>
+
+nnoremap <Tab> :bnext<CR>
+nnoremap <S-Tab> :bprev<CR>
+nnoremap <C-B> :set nomore<bar>ls<bar>set more<cr>:buffer<space>
+
+" close buffer
+"nnoremap <C-W> :bd<CR>
+
+" jump to previous buffer
 
 
 " commands
