@@ -11,6 +11,8 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'ctrlp.vim'
+Plugin 'ap/vim-buftabline'
+Plugin 'airblade/vim-gitgutter'
 
 " All of your Plugins must be added before the following line
 call vundle#end() " required
@@ -33,6 +35,8 @@ endif
 
 let g:buftabline_numbers=1
 let g:buftabline_indicators=1
+
+"let g:GitGutterLineHighlightsEnable=1
 
 
 " http://vimconfig.com/
@@ -68,6 +72,7 @@ set noswapfile
 
 "set shortmess=I
 set viminfo='50,%
+set updatetime=100 " for vim-gitgutter
 
 colorscheme osx_homebrew 
 
