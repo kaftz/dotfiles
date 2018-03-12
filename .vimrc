@@ -13,6 +13,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'ctrlp.vim'
 Plugin 'ap/vim-buftabline'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'scrooloose/nerdtree'
 
 " All of your Plugins must be added before the following line
 call vundle#end() " required
@@ -37,6 +38,10 @@ let g:buftabline_numbers=1
 let g:buftabline_indicators=1
 
 "let g:GitGutterLineHighlightsEnable=1
+
+let g:NERDTreeAutoCenter=1
+let g:NERDTreeQuitOnOpen=1
+let g:NERDTreeWinSize=101
 
 
 " http://vimconfig.com/
@@ -79,20 +84,22 @@ colorscheme osx_homebrew
 
 " key mappings
 " ********************
-imap jj <esc>
-imap jk <esc>
+imap jj <ESC>
+imap jk <ESC>
 
 " <C-L> also clears search highlighting
 nnoremap <C-L> :noh<CR><C-L>
 
-nnoremap <Tab> :bnext<CR>
-nnoremap <S-Tab> :bprev<CR>
-nnoremap <C-B> :set nomore<bar>ls<bar>set more<cr>:buffer<space>
+nnoremap <TAB> :bnext<CR>
+nnoremap <S-TAB> :bprev<CR>
+nnoremap <C-B> :set nomore<BAR>ls<BAR>set more<CR>:buffer<SPACE>
 
 " close buffer
 "nnoremap <C-W> :bd<CR>
 
 " jump to previous buffer
+
+nnoremap <C-T> :NERDTreeToggle<CR>
 
 
 " commands
