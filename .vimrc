@@ -14,6 +14,9 @@ Plugin 'ctrlp.vim'
 Plugin 'ap/vim-buftabline'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'scrooloose/nerdtree'
+Plugin 'flazz/vim-colorschemes'
+"Plugin 'xolox/vim-misc'
+"Plugin 'xolox/vim-colorscheme-switcher'
 
 " All of your Plugins must be added before the following line
 call vundle#end() " required
@@ -79,7 +82,19 @@ set noswapfile
 set viminfo='50,%
 set updatetime=100 " for vim-gitgutter
 
-colorscheme osx_homebrew 
+" af
+" argonaught
+" black_angus
+" calmar256-dark
+" candyman
+" candypaper
+" coldgreen
+" d8g_01
+" dark-ruby
+" darkdot
+" eclipse
+" osx_homebrew
+colorscheme dark-ruby
 
 
 " key mappings
@@ -100,6 +115,9 @@ nnoremap <C-B> :set nomore<BAR>ls<BAR>set more<CR>:buffer<SPACE>
 " jump to previous buffer
 
 nnoremap <C-T> :NERDTreeToggle<CR>
+
+"nnoremap <C-N> :NextColorScheme<CR>
+"nnoremap <C-M> :PrevColorScheme<CR>
 
 
 " commands
